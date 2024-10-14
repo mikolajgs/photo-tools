@@ -25,6 +25,10 @@ func main() {
 	createThumbs.AddFlag("photos", "p", "", "Path to directory with photos", broccli.TypePathFile, broccli.IsExistent|broccli.IsRequired|broccli.IsDirectory)
 	createThumbs.AddFlag("thumbs", "t", "", "Path to thumbs directory", broccli.TypePathFile, broccli.IsExistent|broccli.IsRequired|broccli.IsDirectory)
 
+	serveGallery := cli.AddCmd("serve-gallery", "Starts HTTP server with a photo gallery", serveGalleryHandler)
+	serveGallery.AddFlag("photos", "p", "", "Path to directory with photos", broccli.TypePathFile, broccli.IsExistent|broccli.IsRequired|broccli.IsDirectory)
+	serveGallery.AddFlag("thumbs", "t", "", "Path to thumbs directory", broccli.TypePathFile, broccli.IsExistent|broccli.IsRequired|broccli.IsDirectory)
+
 	_ = cli.AddCmd("version", "Shows version", versionHandler)
 	if len(os.Args) == 2 && (os.Args[1] == "-v" || os.Args[1] == "--version") {
 		os.Args = []string{"App", "version"}
