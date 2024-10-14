@@ -1,0 +1,6 @@
+github.com/mikolajgs/broccli v2.0.0+incompatible h1:zpLdjMIA9QrUtcXQqjFi3WCY3P8n+/45VHRAc2bfZ4c=
+github.com/mikolajgs/broccli v2.0.0+incompatible/go.mod h1:IOqvFr2wSjX/7otXFff5+jOdyWVXi5OsKEJ5viXk/vg=
+github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6Oo2LfFZAehjjQMERAvZLEDnQ=
+github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646/go.mod h1:jpp1/29i3P1S/RLdc7JQKbRpFeM1dOBd8T9ki5s+AY8=
+github.com/strukturag/libheif v1.18.2 h1:CrlRS7Kwl2odl4DYM/m6ay/HPXEcmQPK1xF8FxAqP7k=
+github.com/strukturag/libheif v1.18.2/go.mod h1:E/PNRlmVtrtj9j2AvBZlrO4dsBDu6KfwDZn7X1Ce8Ks=

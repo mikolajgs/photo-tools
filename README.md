@@ -1,2 +1,2 @@
-# image-scripts
-Random scripts for handling files
+# photo-tools
+Random scripts for handling photo files
